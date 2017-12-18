@@ -306,11 +306,11 @@
 // When temperature exceeds max temp, your heater will be switched off.
 // This feature exists to protect your hotend from overheating accidentally, but *NOT* from thermistor short/failure!
 // You should use MINTEMP for thermistor short/failure protection.
-#define HEATER_0_MAXTEMP 260
-#define HEATER_1_MAXTEMP 275
-#define HEATER_2_MAXTEMP 275
-#define HEATER_3_MAXTEMP 275
-#define HEATER_4_MAXTEMP 275
+#define HEATER_0_MAXTEMP 290
+#define HEATER_1_MAXTEMP 290
+#define HEATER_2_MAXTEMP 290
+#define HEATER_3_MAXTEMP 290
+#define HEATER_4_MAXTEMP 290
 #define BED_MAXTEMP 110
 
 //===========================================================================
@@ -566,7 +566,7 @@
 #define DEFAULT_PREHEAT_PRESET1_BED  50
 #define DEFAULT_PREHEAT_PRESET2_HOTEND  220
 #define DEFAULT_PREHEAT_PRESET2_BED  60
-#define DEFAULT_PREHEAT_PRESET3_HOTEND  200
+#define DEFAULT_PREHEAT_PRESET3_HOTEND  240
 #define DEFAULT_PREHEAT_PRESET3_BED  60
 
 //===========================================================================
@@ -778,7 +778,7 @@
 #define Z_MIN_POS 0
 #define X_MAX_POS 200
 #define Y_MAX_POS 200
-#define Z_MAX_POS 180
+#define Z_MAX_POS 280
 
 // If enabled, axes won't move below MIN_POS in response to movement commands.
 #define MIN_SOFTWARE_ENDSTOPS
